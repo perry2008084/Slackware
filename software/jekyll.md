@@ -12,3 +12,7 @@ Linux平台下安装笔记
   * gem sources -a https://ruby.taobao.org/
   * gem -u
  - # gem install jekyl
+ 
+ * 参考
+ - [jekyll安装-知乎回答](http://www.zhihu.com/question/30018945)
+ 
