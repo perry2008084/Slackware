@@ -11,27 +11,27 @@
 * 解压Slackbuild
 
 命令如下：
-`cd /tmp
- mkdir nodejs
- cd ./nodejs
- tar -zxvf nodejs.tar.gz
-`
+
+`cd /tmp`
+
+ `mkdir nodejs`
+ 
+ `cd ./nodejs`
+ 
+ `tar -zxvf nodejs.tar.gz`
 
 * 拷贝Node.js源码到Slackbuild解压路径中
 
-`
-cp v4.2.4.tar.gz ./nodejs
-`
+`cp v4.2.4.tar.gz ./nodejs`
 
 * 编译
 
-`
-su
-./nodejs.SlackBuild
-`
+`su`
+
+`./nodejs.SlackBuild`
 
 * 将编译生成的文件进行安装即可。
 
-`
-installpkg xxxx.tgz
-`
+`installpkg xxxx.tgz`
+
+结束
