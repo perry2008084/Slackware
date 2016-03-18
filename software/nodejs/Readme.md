@@ -1,31 +1,37 @@
-¼ÇÂ¼SlackwareÏÂ°²×°Node.jsµÄ·½·¨£º
+è®°å½•Slackwareä¸‹å®‰è£…Node.jsçš„æ–¹æ³•ï¼š
 
-* ÏÂÔØ Node.jsÔ´Âë
+* ä¸‹è½½ Node.jsæºç 
+
 [Node.js](https://github.com/nodejs/node/archive/v4.2.4.tar.gz)
 
-* ÏÂÔØSlackbuild
-±¾Â·¾¶ÏÂµÄnodejs.tar.gz
+* ä¸‹è½½Slackbuild
 
-* ½âÑ¹Slackbuild
-ÃüÁîÈçÏÂ£º
+æœ¬è·¯å¾„ä¸‹çš„[nodejs.tar.gz](https://github.com/perry2008084/Slackware/blob/master/software/nodejs/nodejs.tar.gz)
+
+* è§£å‹Slackbuild
+
+å‘½ä»¤å¦‚ä¸‹ï¼š
 `cd /tmp
  mkdir nodejs
  cd ./nodejs
  tar -zxvf nodejs.tar.gz
 `
 
-* ¿½±´Node.jsÔ´Âëµ½Slackbuild½âÑ¹Â·¾¶ÖĞ
+* æ‹·è´Node.jsæºç åˆ°Slackbuildè§£å‹è·¯å¾„ä¸­
+
 `
 cp v4.2.4.tar.gz ./nodejs
 `
 
-* ±àÒë
+* ç¼–è¯‘
+
 `
 su
 ./nodejs.SlackBuild
 `
 
-* ½«±àÒëÉú³ÉµÄÎÄ¼ş½øĞĞ°²×°¼´¿É¡£
+* å°†ç¼–è¯‘ç”Ÿæˆçš„æ–‡ä»¶è¿›è¡Œå®‰è£…å³å¯ã€‚
+
 `
 installpkg xxxx.tgz
 `
