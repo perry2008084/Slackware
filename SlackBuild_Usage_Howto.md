@@ -12,14 +12,17 @@ slackbuilds.org上所有的编译脚本都是为Slackware最新的稳定发行�
 
 下载应用的SlackBuild压缩包，并且解压到你的编译路径下。例如，在
 你解压chemtool.tar.gz压缩包后，你应该有以下的文件夹树：
- >> ./chemtool
- >>  |-- README
- >>  |-- chemtool.info
- >>  |-- chemtool.SlackBuild
- >>  |-- chemtool.desktop
- >>  |-- chemtool.png
- >>  |-- slack-desc
- 
+
+```
+ ./chemtool
+  |-- README
+  |-- chemtool.info
+  |-- chemtool.SlackBuild
+  |-- chemtool.desktop
+  |-- chemtool.png
+  |-- slack-desc
+```
+
  匿名的[ftp站点](ftp://ftp.slackbuilds.org)，如果这对于你更方便
  访问。
  
@@ -33,7 +36,7 @@ slackbuilds.org上所有的编译脚本都是为Slackware最新的稳定发行�
  如果你的chemtool版本比在SlackBuild脚本中所写的版本更高，你需要
 根据相应版本修改脚本。使用你最喜欢的编辑器，打开chemtool.SlackBuild
 脚本，并且找到以VERSION开头的行。
->>  VERSION=1.6.7
+>  VERSION=1.6.7
 
 改变这一行来反映chemtool源码的当前版本。
 
@@ -44,10 +47,10 @@ slackbuilds.org上所有的编译脚本都是为Slackware最新的稳定发行�
 步骤3 - 执行SlackBuild脚本(使用root)
 
 如果有需要通过chmod让脚本可执行：
->> chmod +x chemtool.SlackBuild
+> chmod +x chemtool.SlackBuild
 
 接着允许脚本：
->> ./chemtool.SlackBuild
+> ./chemtool.SlackBuild
 
 注意，对于多数的编译，你需要一个真正登录shell来确保拥有一个正确的
 通用环境。在其他事情中，/usr/share/texmf/bin将不会在你的环境变量PATH
