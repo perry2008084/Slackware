@@ -10,7 +10,7 @@ slackbuilds.org上所有的编译脚本都是为Slackware最新的稳定发行�
 --------------------------------------------------------------
 步骤1 - 下载
 
-下载应用的SlackBuild压缩包，并且解压到你的编译路径下。例如，在
+下载应用程序的SlackBuild压缩包，并且解压到你的编译路径下。例如，在
 你解压chemtool.tar.gz压缩包后，你应该有以下的文件夹树：
 
 ```
@@ -23,11 +23,11 @@ slackbuilds.org上所有的编译脚本都是为Slackware最新的稳定发行�
   |-- slack-desc
 ```
 
- 匿名的[ftp站点](ftp://ftp.slackbuilds.org)，如果这对于你更方便
- 访问。
+ 匿名的[ftp站点](ftp://ftp.slackbuilds.org)，如果你更方便
+ 访问FTP。
  
  下一步，从chemtool.info文件所列的地址下载应用程序的源代码，并且
- 放置在上述列出chemtool文件夹中。在[仓库](https://slackbuilds.org)中
+ 放置在上述列出的chemtool文件夹中。在[仓库](https://slackbuilds.org)中
  的每个应用程序页面都有一个源码包的直接链接。
  
  --------------------------------------------------------------
@@ -38,7 +38,7 @@ slackbuilds.org上所有的编译脚本都是为Slackware最新的稳定发行�
 脚本，并且找到以VERSION开头的行。
 >  VERSION=1.6.7
 
-改变这一行来反映chemtool源码的当前版本。
+改变这一行来适配chemtool源码的当前版本。
 
 * 如果有哪些新版本应用程序的靠修改VERSION字符串不能正确编译，请通过
 提交报告让我们知道，提交到[SlackBuild Bugs](https://slackbuilds.org/bugs/)。
@@ -49,7 +49,7 @@ slackbuilds.org上所有的编译脚本都是为Slackware最新的稳定发行�
 如果有需要通过chmod让脚本可执行：
 > chmod +x chemtool.SlackBuild
 
-接着允许脚本：
+接着运行脚本：
 > ./chemtool.SlackBuild
 
 注意，对于多数的编译，你需要一个真正登录shell来确保拥有一个正确的
