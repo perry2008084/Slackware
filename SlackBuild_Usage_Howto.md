@@ -1,4 +1,4 @@
-SlackBuild 使用说明
+SlackBuilds 使用说明
 
 警告
 
